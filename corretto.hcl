@@ -33,7 +33,8 @@ channel "stable" {
 }
 
 version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1"
-        "11.0.20.9.1" "11.0.21.9.1" "11.0.22.7.1" "11.0.23.9.1" "11.0.24.8.1" "11.0.25.9.1" {
+        "11.0.20.9.1" "11.0.21.9.1" "11.0.22.7.1" "11.0.23.9.1" "11.0.24.8.1" "11.0.25.9.1"
+        "11.0.26.4.1" {
   auto-version {
     github-release = "corretto/corretto-11"
   }
@@ -41,7 +42,7 @@ version "11.0.15.9.1" "11.0.17.8.1" "11.0.18.10.1" "11.0.19.7.1" "11.0.20.8.1"
 
 version "17.0.3.6.1" "17.0.4.8.1" "17.0.4.9.1" "17.0.5.8.1" "17.0.6.10.1"
         "17.0.7.7.1" "17.0.8.7.1" "17.0.8.8.1" "17.0.9.8.1" "17.0.10.7.1" "17.0.11.9.1"
-        "17.0.12.7.1" "17.0.13.11.1" {
+        "17.0.12.7.1" "17.0.13.11.1" "17.0.14.7.1" {
   auto-version {
     github-release = "corretto/corretto-17"
   }
@@ -120,4 +121,10 @@ sha256sums = {
   "https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-macosx-x64.tar.gz": "17fb370f6b6e4f79e6fb6ee720631d2c3fd39d90f37d079352327aef4d834689",
   "https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-linux-x64.tar.gz": "31ccb0791940add3fa49b82fff5f87a65dbea27d294f58a753b9775f9752ecc7",
   "https://corretto.aws/downloads/resources/17.0.13.11.1/amazon-corretto-17.0.13.11.1-macosx-aarch64.tar.gz": "33b40aee3ae3db7d298bea0bd34574e755beb2f017ce4eb323f8e28960f0324d",
+  "https://corretto.aws/downloads/resources/11.0.26.4.1/amazon-corretto-11.0.26.4.1-macosx-aarch64.tar.gz": "e722d9389ff488ec52b64e6d36913c47502f2b5e428c1feb4876566faa075dfb",
+  "https://corretto.aws/downloads/resources/11.0.26.4.1/amazon-corretto-11.0.26.4.1-linux-x64.tar.gz": "42f4fd2f863f376d98911cd20700223eb988d535db984d7679a4bc10506b9cdf",
+  "https://corretto.aws/downloads/resources/11.0.26.4.1/amazon-corretto-11.0.26.4.1-macosx-x64.tar.gz": "0855810233e5075917b316fb153a5119ebccca0983293f62f0fff077cee82064",
+  "https://corretto.aws/downloads/resources/17.0.14.7.1/amazon-corretto-17.0.14.7.1-macosx-aarch64.tar.gz": "34986a2c682a12404ae2fb1ea409400ef74f4d1c8da8cc7e6a285180cfd8d351",
+  "https://corretto.aws/downloads/resources/17.0.14.7.1/amazon-corretto-17.0.14.7.1-macosx-x64.tar.gz": "7b67fe48ada326153257acce0c96a62b0c5a551012ba511a1675c7ca3c2c66d8",
+  "https://corretto.aws/downloads/resources/17.0.14.7.1/amazon-corretto-17.0.14.7.1-linux-x64.tar.gz": "62a40ae64d0050ce520e71d73b9460dfbacabd2c9e927a6af1a7bd99603e343d",
 }
