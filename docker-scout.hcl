@@ -8,7 +8,7 @@ platform "windows" {
   source = "https://github.com/docker/scout-cli/releases/download/v${version}/docker-scout_${version}_${os}_${arch}.zip"
 }
 
-version "1.2.2" "1.3.0" "1.4.1" {
+version "1.2.2" "1.3.0" "1.4.1" "1.16.1" {
   auto-version {
     github-release = "docker/scout-cli"
   }
@@ -24,4 +24,11 @@ sha256sums = {
   "https://github.com/docker/scout-cli/releases/download/v1.4.1/docker-scout_1.4.1_darwin_amd64.tar.gz": "5cf4419f8cc0f460135f7a0ee68d4ee0ef3532675356a001504249c63c54a485",
   "https://github.com/docker/scout-cli/releases/download/v1.4.1/docker-scout_1.4.1_linux_amd64.tar.gz": "e4beb047697f88cefda50c5f937083a7aaf1e235a81482cca51abecdf05bb565",
   "https://github.com/docker/scout-cli/releases/download/v1.4.1/docker-scout_1.4.1_darwin_arm64.tar.gz": "f9af3d7942a6558ac50a0944957d136b3c14414368718baeb2428f95efcc7239",
+  "https://github.com/docker/scout-cli/releases/download/v1.2.2/docker-scout_1.2.2_linux_arm64.tar.gz": "982443373d3fb31a3611a695ba778b59c67638ef8b9d27643efa358e8cd39cfa",
+  "https://github.com/docker/scout-cli/releases/download/v1.3.0/docker-scout_1.3.0_linux_arm64.tar.gz": "f236e26f49cb745b0bf6bdc8c78ada5d93f5f48bd2c23f037015b5dfe1851710",
+  "https://github.com/docker/scout-cli/releases/download/v1.4.1/docker-scout_1.4.1_linux_arm64.tar.gz": "79d3aa1f414121f2ce4bb37a113bbe0b0b576ef75cfb2cdb8424eb7038025a21",
+  "https://github.com/docker/scout-cli/releases/download/v1.16.1/docker-scout_1.16.1_linux_arm64.tar.gz": "d8e0547daa6d656d113a236d547eb099c560d314380fa32c69843a5575a0169f",
+  "https://github.com/docker/scout-cli/releases/download/v1.16.1/docker-scout_1.16.1_darwin_amd64.tar.gz": "19378ca6f6f629f8a05a6d9fce98454400d55e646ad941fad5d3d1fda35b92f0",
+  "https://github.com/docker/scout-cli/releases/download/v1.16.1/docker-scout_1.16.1_linux_amd64.tar.gz": "2c77d442dfc0525a9c1c7f95eab45ac2e5d194742eb19dcdb27cd8e734333281",
+  "https://github.com/docker/scout-cli/releases/download/v1.16.1/docker-scout_1.16.1_darwin_arm64.tar.gz": "015eecf2b4b9b472e548dce54d6d22dcd291ed4fe51635dcb6fb016456ac60f1",
 }
