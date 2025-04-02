@@ -14,7 +14,8 @@ version "4.4.1" "3.2.0" "4.4.6" "4.4.7" "4.4.8" {
 
 // We have darwin-arm64 binaries after 5.0.0
 version "5.0.0" "5.0.1" "5.0.2" "5.0.3" "5.1.0" "5.2.2" "5.3.0" "5.4.0" "5.4.1" "5.4.2"
-        "5.4.3" "5.4.4" "5.4.6" "5.4.7" "5.4.8" "5.4.9" "5.5.0" "5.5.1" "5.5.2" "5.6.0" "5.7.4" {
+        "5.4.3" "5.4.4" "5.4.6" "5.4.7" "5.4.8" "5.4.9" "5.5.0" "5.5.1" "5.5.2" "5.6.0" "5.7.4"
+        "5.8.3" {
   source = "https://github.com/rancher/k3d/releases/download/v${version}/k3d-${os}-${arch}"
 
   on "unpack" {
@@ -103,4 +104,29 @@ sha256sums = {
   "https://github.com/rancher/k3d/releases/download/v5.7.4/k3d-darwin-arm64": "34c5adecdd37cba459630807c34329679191d198d0ec0a9c5212718a4fb1c9f0",
   "https://github.com/rancher/k3d/releases/download/v5.7.4/k3d-darwin-amd64": "cb4b65ea15f62384c2a5bf9691af654cbc5daec7f0803754b9c4683c3b36e6c0",
   "https://github.com/rancher/k3d/releases/download/v5.7.4/k3d-linux-amd64": "1ac1da365236736a8df8c32107b54aca208384ab1d9a06771443c85ad698a5eb",
+  "https://github.com/rancher/k3d/releases/download/v5.0.1/k3d-linux-arm64": "e52cadf623e8a73e64f0715c29d8a6719b81d64a05ea78d577626b666239c15a",
+  "https://github.com/rancher/k3d/releases/download/v5.0.2/k3d-linux-arm64": "0b00d41910b8c6e24aea178b643eb3ff8548dd846f2d7b880a89dd8855432678",
+  "https://github.com/rancher/k3d/releases/download/v5.1.0/k3d-linux-arm64": "b997473b1ae640e2c6850fb539875a8d192dddbf7af708a22691bcc83d42191c",
+  "https://github.com/rancher/k3d/releases/download/v5.4.1/k3d-linux-arm64": "712ffb338ec1fed6f7c1c8691b79bc80967cc17fef256cd620190d0d7e502052",
+  "https://github.com/rancher/k3d/releases/download/v5.4.2/k3d-linux-arm64": "2dd85b253dd598057f52efd5f6009a60c925c2f974314eb8d98a745bbff580e6",
+  "https://github.com/rancher/k3d/releases/download/v5.4.3/k3d-linux-arm64": "f604723614cc2a0a0cdbb69b927320b1634365cd36cd2fefb7375995f947559b",
+  "https://github.com/rancher/k3d/releases/download/v5.4.6/k3d-linux-arm64": "36db97dfb3f5b56c7cd048924d87abfa5f499c62f524e00e2500fe75f88056ae",
+  "https://github.com/rancher/k3d/releases/download/v5.5.1/k3d-linux-arm64": "4a3740fb2bc61fda32b2437c270a5f7dc321ade5e9cb6d932b4b97397538042d",
+  "https://github.com/rancher/k3d/releases/download/v5.8.3/k3d-darwin-arm64": "8da468daa7dc7cf7cdd4735f90a9bb05179fa27858250f62e3d8cdf5b5ca0698",
+  "https://github.com/rancher/k3d/releases/download/v5.8.3/k3d-linux-amd64": "dbaa79a76ace7f4ca230a1ff41dc7d8a5036a8ad0309e9c54f9bf3836dbe853e",
+  "https://github.com/rancher/k3d/releases/download/v5.8.3/k3d-darwin-amd64": "fd0f8e9e8ea4d8bc3674572ca6ed0833b639bf57c43c708616d937377324cfea",
+  "https://github.com/rancher/k3d/releases/download/v5.0.3/k3d-linux-arm64": "ebf696c1b3047ecfc041087abceddcf2f120769269defc919779cec2e6ca786b",
+  "https://github.com/rancher/k3d/releases/download/v5.2.2/k3d-linux-arm64": "ccf1dafc1eddfef083375377a52ef0ca269a41c5bc4f0f4d7e11a7c56da08833",
+  "https://github.com/rancher/k3d/releases/download/v5.3.0/k3d-linux-arm64": "efdeb3ebba60155e21099324012338b076591ec3802a5628d16c66622194ac38",
+  "https://github.com/rancher/k3d/releases/download/v5.4.0/k3d-linux-arm64": "0321e06c51324b9bb6ea2ab823665289f27d4732606ed3a468b0fafc4051541b",
+  "https://github.com/rancher/k3d/releases/download/v5.4.7/k3d-linux-arm64": "c8ceb55ed2ffe2015b915848d0b6eaa72dbc1358270dee4e0c12358c16231d40",
+  "https://github.com/rancher/k3d/releases/download/v5.4.8/k3d-linux-arm64": "992f3eb4dd7b35cd0991a538d6feb14ec20f364c36d83a1570a823aab0c1f42d",
+  "https://github.com/rancher/k3d/releases/download/v5.4.9/k3d-linux-arm64": "7d4d9272ee7fa294ecd817e32566fccf514489d5d9556f0cc471decf5ecefa15",
+  "https://github.com/rancher/k3d/releases/download/v5.5.2/k3d-linux-arm64": "2456f2b7db892ae8fb33929543c0a9d672755b8f57b133ea32c83b3aae2f76d5",
+  "https://github.com/rancher/k3d/releases/download/v5.6.0/k3d-linux-arm64": "00cdc046f51545ef460fd983773cd053f3d4fb9d2d2c916824e7a819b46791a7",
+  "https://github.com/rancher/k3d/releases/download/v5.7.4/k3d-linux-arm64": "bc580e0ca907156acd495d42975ed1687ab3a9ac0392af3919afc62a8a8b6670",
+  "https://github.com/rancher/k3d/releases/download/v5.8.3/k3d-linux-arm64": "0b8110f2229631af7402fb828259330985918b08fefd38b7f1b788a1c8687216",
+  "https://github.com/rancher/k3d/releases/download/v5.0.0/k3d-linux-arm64": "c4d34ac455750e46dcdfd98b5d63002481a1edb7eef5585241c8ec8137d96735",
+  "https://github.com/rancher/k3d/releases/download/v5.4.4/k3d-linux-arm64": "9feb8067e89702947ed17d1e18fd3e445046f4114fbae6f491df8463a72fedfa",
+  "https://github.com/rancher/k3d/releases/download/v5.5.0/k3d-linux-arm64": "50bb6add19c934bb6e91690138448a7f3127059fe301f4ae82aa4d91dd9fb528",
 }
