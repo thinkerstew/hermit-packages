@@ -15,7 +15,7 @@ version "0.6.5" "0.6.6" "0.6.7" "0.6.8" "0.6.9" "0.6.10" "0.6.11" "0.6.12" "0.6.
         "0.6.23" "0.6.24" "0.6.25" "0.6.26" "0.6.27" "0.6.28" "0.6.29" "0.6.30" "0.7.0" "0.7.1"
         "0.7.2" "0.7.4" "0.7.5" "0.7.6" "0.7.7" "0.7.8" "0.7.9" "0.7.10" "0.7.11" "0.7.12"
         "0.7.13" "0.7.14" "0.7.15" "0.7.16" "0.7.17" "0.7.19" "0.7.20" "0.7.21" "0.7.22"
-        "0.7.23" "0.8.0" "0.8.1" "0.8.2" "0.8.3" "0.8.15" {
+        "0.7.23" "0.8.0" "0.8.1" "0.8.2" "0.8.3" "0.8.15" "0.8.16" {
   auto-version {
     github-release = "earthly/earthly"
   }
@@ -234,4 +234,8 @@ sha256sums = {
   "https://github.com/earthly/earthly/releases/download/v0.8.3/earthly-linux-arm64": "e30a663d66227ae637c58363ddfa88c3378562ea44efad3f645b92faf501eff8",
   "https://github.com/earthly/earthly/releases/download/v0.8.15/earthly-darwin-arm64": "86c6712f19029f151d3b478bf60906e8731acb2383c5de5e0675fb6a11bd5aaf",
   "https://github.com/earthly/earthly/releases/download/v0.7.4/earthly-linux-arm64": "bab35e02286de92cd01710ca997788cb38581f0b22ca23b8eed5923e64ab7219",
+  "https://github.com/earthly/earthly/releases/download/v0.8.16/earthly-linux-amd64": "3ef3163c81bdd10e28ab31cd96e35c1856d97478c8ce7f20954b8bea7a598404",
+  "https://github.com/earthly/earthly/releases/download/v0.8.16/earthly-darwin-amd64": "1592cb497256577a76dda4e827010876eeeec05e76e3a203f60a68c71a80fc3a",
+  "https://github.com/earthly/earthly/releases/download/v0.8.16/earthly-linux-arm64": "dfdc3957f24754d66cea0c19a46bb542941132c9ccc81df7d71009ed79be54e8",
+  "https://github.com/earthly/earthly/releases/download/v0.8.16/earthly-darwin-arm64": "4ac88e47414778f0a5af0f59637148c9b0eabc7c77cd77890e6cd99e3040a2b4",
 }
