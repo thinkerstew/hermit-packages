@@ -41,7 +41,7 @@ version "2.2.2" "2.2.3" "2.3.0" "2.3.1" "2.3.2" "2.3.3" "2.3.4" "2.4.0" "2.4.1" 
         "2.15.1" "2.16.0" "2.17.0" "2.17.1" "2.17.2" "2.17.3" "2.18.0" "2.18.1" "2.19.0"
         "2.19.1" "2.20.0" "2.20.1" "2.20.2" "2.20.3" "2.21.0" "2.22.0" "2.23.0" "2.23.1"
         "2.23.2" "2.23.3" "2.24.0" "2.24.1" "2.24.2" "2.24.3" "2.24.4" "2.24.5" "2.24.6"
-        "2.33.1" "2.34.0" "2.36.0" "2.36.1" "2.37.3" "2.38.1" "2.38.2" "2.39.1" {
+        "2.33.1" "2.34.0" "2.36.0" "2.36.1" "2.37.3" "2.38.1" "2.38.2" "2.39.1" "2.39.3" {
   auto-version {
     github-release = "docker/compose"
   }
@@ -241,4 +241,7 @@ sha256sums = {
   "https://github.com/docker/compose/releases/download/v2.39.1/docker-compose-darwin-x86_64": "d8e3831e95285e9b7995be68b6efa2546a2eb4b8138abbdb7abd64c8986f5f0f",
   "https://github.com/docker/compose/releases/download/v2.39.1/docker-compose-linux-x86_64": "a5ea28722d5da628b59226626f7d6c33c89a7ed19e39f750645925242044c9d2",
   "https://github.com/docker/compose/releases/download/v2.39.1/docker-compose-darwin-aarch64": "09fa8ee53514b11573f810eb64f78199fd11c66b29c54bf6be3b59563ca75740",
+  "https://github.com/docker/compose/releases/download/v2.39.3/docker-compose-linux-x86_64": "065836e21bce25674d2876dc64321ac707808fcd120e1c3ba700b0ce5ce8ff16",
+  "https://github.com/docker/compose/releases/download/v2.39.3/docker-compose-darwin-aarch64": "b3e20de59b25394e88ca9cf90be33c98e02d92fac86ca6a08d5832825be0c577",
+  "https://github.com/docker/compose/releases/download/v2.39.3/docker-compose-darwin-x86_64": "feba1c33a20aa4ae0fcc5e0d7cffd57ebe2998aa27b5c45619404345f9ee9b99",
 }
