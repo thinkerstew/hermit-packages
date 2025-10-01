@@ -26,7 +26,7 @@ version "1.5" "1.6" {
   }
 }
 
-version "1.7" "1.7.1" {
+version "1.7" "1.7.1" "1.8.1" {
   auto-version {
     github-release = "stedolan/jq"
     version-pattern = "jq-(.*)"
@@ -66,4 +66,10 @@ sha256sums = {
   "https://github.com/stedolan/jq/releases/download/jq-1.7.1/jq-macos-arm64": "0bbe619e663e0de2c550be2fe0d240d076799d6f8a652b70fa04aea8a8362e8a",
   "https://github.com/stedolan/jq/releases/download/jq-1.7.1/jq-linux-amd64": "5942c9b0934e510ee61eb3e30273f1b3fe2590df93933a93d7c58b81d19c8ff5",
   "https://github.com/stedolan/jq/releases/download/jq-1.7.1/jq-macos-amd64": "4155822bbf5ea90f5c79cf254665975eb4274d426d0709770c21774de5407443",
+  "https://github.com/stedolan/jq/releases/download/jq-1.7/jq-linux-arm64": "ab57ee39075db4a23f899d396ecef3c6e58f6aada35bfee472468210bd126940",
+  "https://github.com/stedolan/jq/releases/download/jq-1.7.1/jq-linux-arm64": "4dd2d8a0661df0b22f1bb9a1f9830f06b6f3b8f7d91211a1ef5d7c4f06a8b4a5",
+  "https://github.com/stedolan/jq/releases/download/jq-1.8.1/jq-macos-amd64": "e80dbe0d2a2597e3c11c404f03337b981d74b4a8504b70586c354b7697a7c27f",
+  "https://github.com/stedolan/jq/releases/download/jq-1.8.1/jq-linux-amd64": "020468de7539ce70ef1bceaf7cde2e8c4f2ca6c3afb84642aabc5c97d9fc2a0d",
+  "https://github.com/stedolan/jq/releases/download/jq-1.8.1/jq-linux-arm64": "6bc62f25981328edd3cfcfe6fe51b073f2d7e7710d7ef7fcdac28d4e384fc3d4",
+  "https://github.com/stedolan/jq/releases/download/jq-1.8.1/jq-macos-arm64": "a9fe3ea2f86dfc72f6728417521ec9067b343277152b114f4e98d8cb0e263603",
 }
