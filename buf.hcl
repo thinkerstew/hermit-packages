@@ -22,7 +22,7 @@ version "0.43.2" "0.44.0" "0.56.0" "1.0.0-rc8" "1.8.0" "1.9.0" "1.10.0" "1.11.0"
         "1.32.0" "1.32.1" "1.32.2" "1.33.0" "1.34.0" "1.35.0" "1.35.1" "1.36.0" "1.37.0"
         "1.38.0" "1.39.0" "1.40.0" "1.40.1" "1.41.0" "1.42.0" "1.43.0" "1.44.0" "1.45.0"
         "1.46.0" "1.47.0" "1.47.2" "1.48.0" "1.49.0" "1.50.0" "1.50.1" "1.51.0" "1.52.0"
-        "1.52.1" "1.53.0" "1.54.0" "1.55.1" "1.56.0" "1.57.0" "1.57.2" {
+        "1.52.1" "1.53.0" "1.54.0" "1.55.1" "1.56.0" "1.57.0" "1.57.2" "1.58.0" {
   auto-version {
     github-release = "bufbuild/buf"
   }
@@ -236,4 +236,7 @@ sha256sums = {
   "https://github.com/bufbuild/buf/releases/download/v1.57.2/buf-Darwin-arm64.tar.gz": "942dd3c96444615def14ed791de33c882f9a6a2166ead1c22973c04a4d3b186e",
   "https://github.com/bufbuild/buf/releases/download/v1.57.2/buf-Linux-x86_64.tar.gz": "275883a9bb684d37b26a5c86466870a3acd2420163ac6f4827491498d89e34ad",
   "https://github.com/bufbuild/buf/releases/download/v1.57.2/buf-Darwin-x86_64.tar.gz": "b5cefc5eec24331e26a49db2b71b46e7e5a30d8d8f361f9ccc69e7dd5fda5c7c",
+  "https://github.com/bufbuild/buf/releases/download/v1.58.0/buf-Linux-x86_64.tar.gz": "59f1426ff27aa1fb008f1ae4d494d9897f56844262ca414e84310d0b04b23e76",
+  "https://github.com/bufbuild/buf/releases/download/v1.58.0/buf-Darwin-arm64.tar.gz": "e2230c26fd9ef2f84c22ada5847ac673c04ad4b6c5e7f30ff972601f565b6c90",
+  "https://github.com/bufbuild/buf/releases/download/v1.58.0/buf-Darwin-x86_64.tar.gz": "03d244a26b43357e154afbd04754bb0958a886f6095ca84120c8a538298635fc",
 }
