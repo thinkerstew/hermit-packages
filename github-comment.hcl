@@ -5,7 +5,7 @@ binaries = ["github-comment"]
 test = "github-comment -v"
 
 version "4.5.0" "4.5.2" "5.0.0" "5.0.1" "5.0.2" "5.0.3" "5.1.0" "5.1.1" "5.2.1" "6.0.0"
-        "6.0.1" "6.0.2" "6.0.3" "6.0.4" "6.3.2" "6.3.4" "6.3.5" {
+        "6.0.1" "6.0.2" "6.0.3" "6.0.4" "6.3.2" "6.3.4" "6.3.5" "6.4.1" {
   auto-version {
     github-release = "suzuki-shunsuke/github-comment"
   }
@@ -80,4 +80,8 @@ sha256sums = {
   "https://github.com/suzuki-shunsuke/github-comment/releases/download/v6.3.5/github-comment_6.3.5_darwin_arm64.tar.gz": "41824cdccbeccebec0a0acb3388a8951e1d7300f6c912c392d347ed76a0f02d0",
   "https://github.com/suzuki-shunsuke/github-comment/releases/download/v6.3.5/github-comment_6.3.5_linux_arm64.tar.gz": "b74418dbd5da1d1fb257aa60d639c2011347b438909560910a8f52c4ae371aab",
   "https://github.com/suzuki-shunsuke/github-comment/releases/download/v6.3.5/github-comment_6.3.5_darwin_amd64.tar.gz": "ae36c77af8b341ec8a6acac83ba68641dcc933b3571de6f213f7970993ca88fa",
+  "https://github.com/suzuki-shunsuke/github-comment/releases/download/v6.4.1/github-comment_6.4.1_linux_amd64.tar.gz": "20983822f9b690ba5bb9d1ef69e784b6607b7ce4f2da1a60416ee9e81355b501",
+  "https://github.com/suzuki-shunsuke/github-comment/releases/download/v6.4.1/github-comment_6.4.1_linux_arm64.tar.gz": "0871af6a7ddff8de9cece5da021ef67d6e766ac98e8a11b3cb1a9a81986ad2fe",
+  "https://github.com/suzuki-shunsuke/github-comment/releases/download/v6.4.1/github-comment_6.4.1_darwin_amd64.tar.gz": "82e5d3f3b9f902ef649ecdca0974619db0102e4a92b67c3aebbe7a923e67e4c4",
+  "https://github.com/suzuki-shunsuke/github-comment/releases/download/v6.4.1/github-comment_6.4.1_darwin_arm64.tar.gz": "ba269bae0a55b672d13eb23655392acf868011c1b5346db91ad9bad8f16cde8f",
 }
