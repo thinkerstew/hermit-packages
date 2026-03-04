@@ -5,7 +5,8 @@ test = "hookdeck --version"
 source = "https://github.com/hookdeck/hookdeck-cli/releases/download/v${version}/hookdeck_${version}_${os}_${arch}.tar.gz"
 sha256-source = "https://github.com/hookdeck/hookdeck-cli/releases/download/v${version}/hookdeck-checksums.txt"
 
-version "0.8.5" "0.8.6" "0.11.2" "1.0.3" "1.3.0" "1.5.0" "1.7.0" "1.7.1" "1.8.1" {
+version "0.8.5" "0.8.6" "0.11.2" "1.0.3" "1.3.0" "1.5.0" "1.7.0" "1.7.1" "1.8.1"
+        "1.9.1" {
   auto-version {
     github-release = "hookdeck/hookdeck-cli"
   }
@@ -48,4 +49,8 @@ sha256sums = {
   "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.8.1/hookdeck_1.8.1_darwin_amd64.tar.gz": "7d75e8c79c0ffd1359d3e64f4ab0105aa14f295bcd1cd483781a47a7644bb59b",
   "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.8.1/hookdeck_1.8.1_linux_arm64.tar.gz": "1def83951b6c7cf5f58a1f3d77ddd3542d118e0da6c8e5fbb124438c27fe3354",
   "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.8.1/hookdeck_1.8.1_darwin_arm64.tar.gz": "c0fb845d653058bd57f5c4c3c2988984138f8c4f9e63a8d936ea6bfd5895a18e",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.9.1/hookdeck_1.9.1_linux_arm64.tar.gz": "af70bd783dd15f5d19cedd957a3d7f16f3c435ba5969831b0362d1602cdd3610",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.9.1/hookdeck_1.9.1_darwin_amd64.tar.gz": "0825e06f73bdda7c29d9415c1126d126525c6f4b29a02436889463aabce3494c",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.9.1/hookdeck_1.9.1_darwin_arm64.tar.gz": "30b903ffac4b1ed5979a3da240958f6d61f4c7b0cf084b9509e8f4dd038779cf",
+  "https://github.com/hookdeck/hookdeck-cli/releases/download/v1.9.1/hookdeck_1.9.1_linux_amd64.tar.gz": "a6f93b27b6d4eddc5d782c5cf97b87b0bec10b9bc576988cbde403d794e08c4d",
 }
