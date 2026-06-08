@@ -29,7 +29,7 @@ platform "darwin" {
   }
 }
 
-version "11.2.0" "11.2.0-1" {
+version "11.2.0" "11.2.0-1" "15.2.0" {
   auto-version {
     github-release = "messense/homebrew-macos-cross-toolchains"
   }
@@ -40,4 +40,6 @@ sha256sums = {
   "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v11.2.0/aarch64-unknown-linux-musl-aarch64-darwin.tar.gz": "0b75eddd0c59f678a8db198b57b87891220ffe9d6224196fdbcf6eab0b4e8a22",
   "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v11.2.0-1/aarch64-unknown-linux-musl-x86_64-darwin.tar.gz": "4fbe95500c327828b437f380bb15851e9a8126cf95180fbf15b76b78e0322ae3",
   "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v11.2.0-1/aarch64-unknown-linux-musl-aarch64-darwin.tar.gz": "e08ccc332bf75e4c5ef1f559835ec03b0d5df8bb28214b62f1cbd579385eff1f",
+  "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v15.2.0/aarch64-unknown-linux-musl-x86_64-darwin.tar.gz": "7351afd573d38c9e034d5ab126233deb69aea6d187207624dbd3048ff1b087ea",
+  "https://github.com/messense/homebrew-macos-cross-toolchains/releases/download/v15.2.0/aarch64-unknown-linux-musl-aarch64-darwin.tar.gz": "f7e081c0e0d0a0f7d4a769872b6471e91457ab982c7a9b201971ef4cb23e4694",
 }

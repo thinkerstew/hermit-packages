@@ -2,7 +2,7 @@ description = "kubectx is a utility to manage and switch between kubectl context
 binaries = ["kubectx"]
 test = "kubectx --help"
 
-version "0.9.4" "0.9.5" {
+version "0.9.4" "0.9.5" "0.11.0" {
   auto-version {
     github-release = "ahmetb/kubectx"
   }
@@ -21,4 +21,6 @@ sha256sums = {
   "https://github.com/ahmetb/kubectx/releases/download/v0.9.4/kubectx_v0.9.4_darwin_x86_64.tar.gz": "99392d5cc3d174a18b68d9cce6872dc6c7216d58b6913e4f6a51274cffa95583",
   "https://github.com/ahmetb/kubectx/releases/download/v0.9.5/kubectx_v0.9.5_linux_x86_64.tar.gz": "a2247ffd23e79f89abdd0e8173379d7172511f02a3f63c9936d3824e0dd60648",
   "https://github.com/ahmetb/kubectx/releases/download/v0.9.5/kubectx_v0.9.5_darwin_x86_64.tar.gz": "38a724102338542503169158d262e502f12485976a49d0fbc555293a9b39782b",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_linux_x86_64.tar.gz": "08e031c54fbffb3f100e904e4eae94bba2730fedf4869921fda79e4d7a8f5d4c",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_darwin_x86_64.tar.gz": "80097893b478c55be51ffe826c172f0fd5095d23cca02adbcbcabc412700a689",
 }

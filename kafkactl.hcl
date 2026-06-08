@@ -4,7 +4,7 @@ source = "https://github.com/deviceinsight/kafkactl/releases/download/v${version
 
 version "1.24.0" "2.0.0" "2.0.1" "2.1.0" "2.2.0" "2.2.1" "2.3.0" "2.4.0" "2.5.0"
         "3.0.0" "3.0.1" "3.0.2" "3.0.3" "3.1.0" "3.2.0" "3.3.0" "3.4.0" "3.5.1" "4.0.0" "5.3.0"
-        "5.6.0" "5.15.0" "5.17.0" {
+        "5.6.0" "5.15.0" "5.17.0" "5.19.0" {
   auto-version {
     github-release = "deviceinsight/kafkactl"
   }
@@ -103,4 +103,8 @@ sha256sums = {
   "https://github.com/deviceinsight/kafkactl/releases/download/v5.17.0/kafkactl_5.17.0_darwin_arm64.tar.gz": "83dcfdf2617a76c5a297026eab76899df03323a3ac90a144129e8ae8b4cc48b9",
   "https://github.com/deviceinsight/kafkactl/releases/download/v5.17.0/kafkactl_5.17.0_linux_amd64.tar.gz": "ff8c27560b71d275d9ce377c9d8adb817ca7d79b60d368d712c617bb7a8a479f",
   "https://github.com/deviceinsight/kafkactl/releases/download/v5.17.0/kafkactl_5.17.0_darwin_amd64.tar.gz": "22c13995e832179b2d52915c3769871bdea416b8bc9b7502ee6756db15fd7ac2",
+  "https://github.com/deviceinsight/kafkactl/releases/download/v5.19.0/kafkactl_5.19.0_darwin_arm64.tar.gz": "d156e4032541389625e88fd40d396dd6e8b607d432638b48d80e3689c75475d4",
+  "https://github.com/deviceinsight/kafkactl/releases/download/v5.19.0/kafkactl_5.19.0_linux_amd64.tar.gz": "d910992647e15dd065f9b166ff2bf429df3859092f4670655adce07fc453aee5",
+  "https://github.com/deviceinsight/kafkactl/releases/download/v5.19.0/kafkactl_5.19.0_darwin_amd64.tar.gz": "febb2a767b15dd993ebeb5026f20f25b12f70545d76f32d97bdccbf1ca7b11eb",
+  "https://github.com/deviceinsight/kafkactl/releases/download/v5.19.0/kafkactl_5.19.0_linux_arm64.tar.gz": "d0636d12b2fe5e165b5856cf231de537a9382e07858a2d2526d89968d1bf1239",
 }
