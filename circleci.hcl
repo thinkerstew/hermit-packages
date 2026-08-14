@@ -29,7 +29,7 @@ version "0.1.29041" "0.1.29314" "0.1.29560" "0.1.29658" "0.1.29936" "0.1.30163"
         "0.1.33163" "0.1.33494" "0.1.33721" "0.1.33826" "0.1.34038" "0.1.34283" "0.1.34422"
         "0.1.34616" "0.1.34685" "0.1.34770" "0.1.34950" "0.1.35213" "0.1.35800" "0.1.36106"
         "0.1.36202" "0.1.38646" "1.0.47027" "1.0.47244" "1.0.47471" "1.0.47571" "1.0.47876"
-        "1.0.47993" {
+        "1.0.47993" "1.0.48122" {
   auto-version {
     github-release = "CircleCI-Public/circleci-cli"
   }
@@ -183,4 +183,7 @@ sha256sums = {
   "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.47993/circleci-cli_1.0.47993_darwin_amd64.tar.gz": "3aa310df90aebdc09abf3e9a98379d08cb17c7a067a05f0f5dd25f42204987e2",
   "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.47993/circleci-cli_1.0.47993_linux_amd64.tar.gz": "a69942f5b7f7738c1181c35a3a6ad3d3ff28f93281815494773987e2fee85d81",
   "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.47993/circleci-cli_1.0.47993_darwin_arm64.tar.gz": "30ebfcce203cbd6ae0fbac03faea687ec044c18536201e8fb25c0dae1f66056b",
+  "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.48122/circleci-cli_1.0.48122_darwin_amd64.tar.gz": "5219266b11ad3f9e3f18fee862ca38e14513e26c13c958293d727d742705ecf4",
+  "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.48122/circleci-cli_1.0.48122_linux_amd64.tar.gz": "ce3c4322a10ea6072cc5d9a9cdd69a27cf2501fe7016db06a9e90237c5e34314",
+  "https://github.com/CircleCI-Public/circleci-cli/releases/download/v1.0.48122/circleci-cli_1.0.48122_darwin_arm64.tar.gz": "17203efaf3f3149a38ca5f46c6b7a8c9a3a68f966872af61f803a6ef4472d943",
 }
