@@ -22,7 +22,7 @@ platform "linux" "amd64" {
 description = "A powerful tool for using AWS Identity Center for the CLI and web console."
 
 version "1.14.2" "1.14.3" "1.15.0" "1.15.1" "1.16.0" "1.16.1" "1.17.0" "2.0.0" "2.0.1"
-        "2.0.3" "2.1.0" "2.2.0" "2.2.1" "2.2.2" "2.2.4" "2.2.5" "2.3.1" "2.3.2" {
+        "2.0.3" "2.1.0" "2.2.0" "2.2.1" "2.2.2" "2.2.4" "2.2.5" "2.3.1" "2.3.2" "2.3.4" {
   auto-version {
     github-release = "synfinatic/aws-sso-cli"
   }
@@ -83,4 +83,7 @@ sha256sums = {
   "https://github.com/synfinatic/aws-sso-cli/releases/download/v2.3.2/aws-sso-2.3.2-linux-amd64": "0347a91f65680db4ab5f6bde85afc4265e677389581ac920bb2536bd05a6f5de",
   "https://github.com/synfinatic/aws-sso-cli/releases/download/v2.3.2/aws-sso-2.3.2-darwin-arm64": "09a9c620c69afed20a24c53666b298b85da079be6210ac7822f325433e53e70f",
   "https://github.com/synfinatic/aws-sso-cli/releases/download/v2.3.2/aws-sso-2.3.2-darwin-amd64": "1a13770fd7c65d44bba0ab81958b56d0af5359062ab3eef1385c664ce5a4d321",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v2.3.4/aws-sso-2.3.4-linux-amd64": "4481466189fd3f9207467186a3f1421fd305306e820bee8e29be8a13850a3c6c",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v2.3.4/aws-sso-2.3.4-darwin-arm64": "7e59143757968c2bca0934c5235ef13201798c9b70022a78042ee7e87707f51f",
+  "https://github.com/synfinatic/aws-sso-cli/releases/download/v2.3.4/aws-sso-2.3.4-darwin-amd64": "333b60674e7ca9f23cfaa78ed36013c8db57887c850355411e2a6740a1313cdc",
 }
